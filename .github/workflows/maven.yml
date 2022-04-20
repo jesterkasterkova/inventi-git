@@ -24,3 +24,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Print names
+      run: java -jar target/kpj-git-1.0-SNAPSHOT.jar
