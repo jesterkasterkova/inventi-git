@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class KpjGit {
 
   public static void main(String[] args) {
-    System.out.println("Hello");
+    System.out.println("Hello KPJ");
     File folder = new File(".");
     Arrays.stream(folder.listFiles())
         .filter(File::isFile)
